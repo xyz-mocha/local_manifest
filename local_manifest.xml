@@ -8,13 +8,21 @@
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
+       <remote name="ArrowOS-Devices"
+                fetch="https://github.com/ArrowOS-Devices" />
+
        <remote name="arrowos-project"
                 fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="evo" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="xyz-mocha" revision="eas" />
+
+  <!-- others -->
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="ArrowOS-Devices" revision="arrow-13.0" />
+
+  <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
 
