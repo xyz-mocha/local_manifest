@@ -17,6 +17,8 @@
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="xyz-mocha" revision="eas" />
 
   <!-- extra -->
+  <remove-project name="android_bionic"/>
+  <project path="bionic" name="android_bionicc" remote="xyz-mocha" revision="arrow-13.0" />
   <project path="packages/apps/Gcam" name="baibhab34/packages_apps_Gcam" remote="github" revision="main" />
 
   <!-- clang -->
