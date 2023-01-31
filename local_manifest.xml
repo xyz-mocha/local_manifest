@@ -8,8 +8,8 @@
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
-       <remote name="arrowos-project"
-                fetch="https://gitlab.com/arrowos-project" />
+       <remote name="GhostMaster69"
+                fetch="https://gitlab.com/GhostMaster69-dev" />
 
   <!-- trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
@@ -23,6 +23,6 @@
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang-x86_clang-r437112b" remote="GhostMaster69" revision="master" clone-depth="1" />
 
 </manifest>
