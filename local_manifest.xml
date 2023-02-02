@@ -8,8 +8,8 @@
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
-       <remote name="GhostMaster69"
-                fetch="https://gitlab.com/GhostMaster69-dev" />
+       <remote name="arrowos-project"
+                fetch="https://gitlab.com/arrowos-project" />
 
   <!-- trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
@@ -19,10 +19,9 @@
   <!-- extra -->
   <remove-project name="android_bionic"/>
   <project path="bionic" name="android_bionicc" remote="xyz-mocha" revision="arrow-13.0" />
-  <project path="packages/apps/Gcam" name="baibhab34/packages_apps_Gcam" remote="github" revision="main" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="GhostMaster69" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
 
 </manifest>
