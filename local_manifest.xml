@@ -8,17 +8,10 @@
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
-     <remote name="PixelExperience" 
-             fetch="https://github.com/PixelExperience" />
-
   <!-- trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="arrow" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="xyz-mocha" revision="eas" />
-
-  <!-- replacement -->
-  <remove-project name="android_bionic"/>
-  <project path="bionic" name="bionic" remote="PixelExperience" revision="thirteen" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
