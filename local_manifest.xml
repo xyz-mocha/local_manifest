@@ -14,9 +14,6 @@
        <remote name="baibhab34"
                 fetch="https://github.com/baibhab34" />
 
-       <remote name="arrow-gitlab"
-                fetch="https://gitlab.com/arrow-gitlab" />
-
   <!-- trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="arrow" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
