@@ -5,29 +5,15 @@
      <remote name="xyz-mocha" 
              fetch="https://github.com/xyz-mocha" />
 
-       <remote name="saiduxk"
-                fetch="https://github.com/saiduxk" />
-
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
-       <remote name="baibhab34"
-                fetch="https://github.com/baibhab34" />
-
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="arrow" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="xyz-mocha" revision="eas" />
 
-  <!-- gcam -->
-  <project path="packages/apps/Gcam" name="packages_apps_Gcam" remote="baibhab34" revision="main" />
-
-  <!-- replacement -->
-  <remove-project name="android_frameworks_base"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="saiduxk" revision="arrow-13.0" />
-
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrow-gitlab" revision="master" clone-depth="1" />
 
 </manifest>
