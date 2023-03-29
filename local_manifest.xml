@@ -9,7 +9,7 @@
                 fetch="https://gitlab.com/Amritorock" />
 
   <!-- trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="xyz-mocha" revision="wip" />
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="xyz-mocha" revision="13.x" />
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="xyz-mocha" revision="eas" />
 
