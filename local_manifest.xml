@@ -2,8 +2,11 @@
 <manifest>
     
      <!--remote -->
-     <remote name="xyz-mocha" 
-             fetch="https://github.com/xyz-mocha" />
+       <remote name="Joker-V2"
+                fetch="https://gitlab.com/Joker-V2" />
+
+       <remote name="xyz-mocha" 
+               fetch="https://github.com/xyz-mocha" />
 
        <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
@@ -15,5 +18,6 @@
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="prebuilts_clang_host_linux-x86_clang-r487747" remote="Joker-V2" revision="master" clone-depth="1" />
 
 </manifest>
